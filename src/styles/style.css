@@ -1,0 +1,72 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    width: 100%;
+    background-image: linear-gradient(43deg, #4158D0 0%, #ff8b8b 46%, #F2AA30 100%);
+    background-size: cover;
+    color: white;
+
+}
+.welcome{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h1.project_name{
+    color: white;
+    margin: 0;
+    font-size: 52px;
+}
+.wrapper{
+    width: 70%;
+    margin: auto;
+}
+
+ul.targets{
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px 25px;
+
+}
+ul.targets li{
+    font-size: 16px;
+    margin: 15px;
+    position: relative;
+}
+ul.targets li::before {
+    content: 'f';
+    background: url("../../img/circle.svg");
+    width: 24px;
+    position: absolute;
+    top: -3px;
+    display: block;
+    left: -38px;
+    height: 24px;
+    color: transparent;
+}
+
+.incubator{
+    text-align: center;
+}
+.incubator .purposes{
+    display: flex;
+    justify-content: space-around;
+}
+.incubator .purposes .purpose{
+    display: flex;
+    width: 260px;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+@media screen and (max-width: 690px) {
+    h1.project_name{
+        font-size: 34px;
+    }
+    .wrapper{
+        width: 90%;
+    }
+}
