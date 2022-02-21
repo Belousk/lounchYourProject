@@ -127,6 +127,7 @@ header {
     width: 260px;
     flex-direction: column;
     align-content: center;
+    margin-bottom: 10px;
 }
 .purposes .purpose img{
     width: 160px;
