@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6f11062-b762-4d06-95bc-c29e4b9493f3" name="Changes" comment="welcome and incubator page">
-      <change afterPath="$PROJECT_DIR$/img/next2Background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/nextSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="b6f11062-b762-4d06-95bc-c29e4b9493f3" name="Changes" comment="accelerator page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +68,7 @@
       <workItem from="1645288215165" duration="33000" />
       <workItem from="1645288287353" duration="12000" />
       <workItem from="1645288738510" duration="5675000" />
-      <workItem from="1645432161395" duration="2255000" />
+      <workItem from="1645432161395" duration="2878000" />
     </task>
     <task id="LOCAL-00001" summary="welcome and incubator page">
       <created>1645432243894</created>
@@ -83,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645432243894</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="accelerator page">
+      <created>1645438807820</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645438807820</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="welcome and incubator page" />
-    <option name="LAST_COMMIT_MESSAGE" value="welcome and incubator page" />
+    <MESSAGE value="accelerator page" />
+    <option name="LAST_COMMIT_MESSAGE" value="accelerator page" />
   </component>
 </project>

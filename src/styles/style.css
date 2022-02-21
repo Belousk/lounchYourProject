@@ -165,9 +165,10 @@ header {
     .targets_rockets .rockets .small{
         right: 280px;
     }
-    .incubator_wrapper{
+    .incubator_wrapper, .accelerator_wrapper, header{
         height: auto;
     }
+
 }
 @media screen and (max-width: 1150px) {
     .targets_rockets .rockets{
