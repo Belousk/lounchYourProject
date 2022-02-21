@@ -1,9 +1,13 @@
-html, body{
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+html, body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Balsamiq Sans", sans-serif;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
+
 header {
     background-image: url("../../img/headingBakcground.png");
     background-repeat: no-repeat;
@@ -13,127 +17,152 @@ header {
     display: flex;
     align-items: center;
 }
-.welcome{
+
+.welcome {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.logo{
+
+.logo {
     margin-bottom: 30px;
 }
-.wrapper{
+
+.wrapper {
     width: 70%;
     margin: 0 auto;
 }
-.targets_rockets{
+
+.targets_rockets {
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
 }
-.targets_rockets ul.targets{
+
+.targets_rockets ul.targets {
     list-style: square;
     color: black;
     margin: 10px 0;
     padding: 10px 25px;
-
 }
-.targets_rockets ul.targets li{
+
+.targets_rockets ul.targets li {
     font-size: 25px;
     margin: 15px;
     position: relative;
     width: 60%;
 }
 
-.targets_rockets .rockets img{
-    position: absolute;
-}
-.targets_rockets .rockets .big{
+
+.targets_rockets .rockets .big {
     top: 200px;
     right: 300px;
     width: 300px;
 }
-.targets_rockets .rockets .medium{
+
+.targets_rockets .rockets .medium {
     top: 230px;
     right: 520px;
     width: 200px;
 }
-.targets_rockets .rockets .small{
-     top: 440px;
-     right: 460px;
-     width: 100px;
+
+.targets_rockets .rockets .small {
+    top: 440px;
+    right: 460px;
+    width: 100px;
 }
 
 
-
-.incubator, .accelerator{
+.incubator, .accelerator {
     text-align: center;
     padding: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.purposes .purpose{
+
+.purposes {
+    width: 100%;
+}
+
+.purposes .purpose {
     display: flex;
     width: 260px;
     flex-direction: column;
     align-content: center;
 }
-.purposes .purpose img{
+
+.purposes .purpose img {
     width: 160px;
     align-self: center;
 }
+.logo{
+    margin-top: 130px;
+}
+.incubator h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
 
-.incubator h1{
+.accelerator h1 {
     margin-top: 0;
     margin-bottom: 30px;
 }
-.accelerator h1{
-    margin-top: 0;
-    margin-bottom: 30px;
-}
-.sign_up_form{
+
+.sign_up_form {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 30px 80px;
     align-self: center;
+    align-items: center;
     font-size: 25px;
     border: 6px solid black;
     border-radius: 150px;
+    margin-bottom: 100px;
 }
-.sign_up_form .description{
-    width: 70%;
+
+.sign_up_form .description {
+    margin-right: 10px;
 }
-.button_flex{
+
+.button_flex {
     display: flex;
     align-items: center;
 }
-.sign_up_button{
+
+.sign_up_button {
     text-decoration: none;
     color: white;
     background-color: black;
     border-radius: 80px;
-    padding: 35px;
+    padding: 30px 35px;
     text-align: center;
-
+    font-size: 30px;
+    mix-blend-mode: multiply;
 }
 
 
-.purposes{
+.purposes {
     display: flex;
     justify-content: space-around;
     margin-bottom: 30px;
     flex-wrap: wrap;
 }
-.purposes .purpose{
+
+.purposes .purpose {
     display: flex;
     width: 260px;
     flex-direction: column;
     align-content: center;
     margin-bottom: 10px;
 }
-.purposes .purpose img{
+
+.purposes .purpose img {
     width: 160px;
     align-self: center;
 }
-.incubator, .accelerator{
+
+.incubator, .accelerator {
     padding: 20px;
     display: flex;
     align-items: center;
@@ -141,65 +170,67 @@ header {
 }
 
 
-.incubator_wrapper{
+.incubator_wrapper {
     background: url("../../img/next1Background.png");
     height: 100vh;
     background-size: cover;
     display: flex;
     align-items: center;
 }
-.accelerator_wrapper{
+
+.accelerator_wrapper {
     display: flex;
     align-items: center;
     background: url("../../img/next2Background.png");
     height: 100vh;
     background-size: cover;
 }
-@media screen and (max-width: 1500px) {
 
-    .targets_rockets .rockets .big{
-        right: 120px;
-    }
-    .targets_rockets .rockets .medium{
-        right: 340px;
-    }
-    .targets_rockets .rockets .small{
-        right: 280px;
-    }
-    .incubator_wrapper, .accelerator_wrapper, header{
+
+
+
+@media screen and (max-width: 1300px) {
+    .incubator_wrapper, .accelerator_wrapper, header {
         height: auto;
+        padding: 20px;
     }
-
 }
+
 @media screen and (max-width: 1150px) {
-    .targets_rockets .rockets{
+    .targets_rockets .rockets {
         display: none;
     }
-    .targets_rockets ul.targets li{
+
+    .targets_rockets ul.targets li {
         width: 100%;
         font-size: 20px;
     }
-    .sign_up_form{
+
+    .sign_up_form {
         flex-direction: column;;
         border-radius: 50px;
     }
-    .sign_up_form .description{
+
+    .sign_up_form .description {
         font-size: 20px;
         width: 100%;
         margin-bottom: 10px;
     }
-    .sign_up_form .sign_up_button{
-        padding: 15px;
+
+    .sign_up_form .sign_up_button {
+        padding: 30px 35px;
     }
 
-    .incubator .purposes .purpose img{
+    .incubator .purposes .purpose img {
         width: 100px;
         align-self: center;
     }
+
+
 }
 
 @media screen and (max-width: 690px) {
-    .wrapper{
+    .wrapper {
         width: 90%;
     }
 }

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6f11062-b762-4d06-95bc-c29e4b9493f3" name="Changes" comment="accelerator page" />
+    <list default="true" id="b6f11062-b762-4d06-95bc-c29e4b9493f3" name="Changes" comment="add some margin to purposes">
+      <change afterPath="$PROJECT_DIR$/img/rockets.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rocketBig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rocketMedium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rocketSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +76,8 @@
       <workItem from="1645288215165" duration="33000" />
       <workItem from="1645288287353" duration="12000" />
       <workItem from="1645288738510" duration="5675000" />
-      <workItem from="1645432161395" duration="2878000" />
+      <workItem from="1645432161395" duration="3701000" />
+      <workItem from="1645479071587" duration="4459000" />
     </task>
     <task id="LOCAL-00001" summary="welcome and incubator page">
       <created>1645432243894</created>
@@ -84,7 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645438807820</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix bugs in welcome page">
+      <created>1645440673394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645440673394</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add some margin to purposes">
+      <created>1645440815299</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645440815299</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +128,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="welcome and incubator page" />
     <MESSAGE value="accelerator page" />
-    <option name="LAST_COMMIT_MESSAGE" value="accelerator page" />
+    <MESSAGE value="fix bugs in welcome page" />
+    <MESSAGE value="add some margin to purposes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some margin to purposes" />
   </component>
 </project>
