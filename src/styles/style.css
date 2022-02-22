@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     font-family: "Balsamiq Sans", sans-serif;
     overflow-x: hidden;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 header {
@@ -25,7 +25,9 @@ header {
 }
 
 .logo {
-    margin-bottom: 30px;
+    position: absolute;
+    top: -90px;
+    left: 20px;
 }
 
 .wrapper {
@@ -37,6 +39,7 @@ header {
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
+    align-items: end;
 }
 
 .targets_rockets ul.targets {
@@ -50,28 +53,7 @@ header {
     font-size: 25px;
     margin: 15px;
     position: relative;
-    width: 60%;
 }
-
-
-.targets_rockets .rockets .big {
-    top: 200px;
-    right: 300px;
-    width: 300px;
-}
-
-.targets_rockets .rockets .medium {
-    top: 230px;
-    right: 520px;
-    width: 200px;
-}
-
-.targets_rockets .rockets .small {
-    top: 440px;
-    right: 460px;
-    width: 100px;
-}
-
 
 .incubator, .accelerator {
     text-align: center;
@@ -96,9 +78,11 @@ header {
     width: 160px;
     align-self: center;
 }
-.logo{
+
+.logo {
     margin-top: 130px;
 }
+
 .incubator h1 {
     margin-top: 0;
     margin-bottom: 30px;
@@ -116,6 +100,7 @@ header {
     align-self: center;
     align-items: center;
     font-size: 25px;
+    color: black;
     border: 6px solid black;
     border-radius: 150px;
     margin-bottom: 100px;
@@ -133,12 +118,12 @@ header {
 .sign_up_button {
     text-decoration: none;
     color: white;
-    background-color: black;
+    background-color: #000000;
     border-radius: 80px;
     padding: 30px 35px;
     text-align: center;
     font-size: 30px;
-    mix-blend-mode: multiply;
+    mix-blend-mode: darken;
 }
 
 
@@ -186,20 +171,35 @@ header {
     background-size: cover;
 }
 
+.targets_rockets .rockets_img {
+    width: 40%;
+}
 
+@media screen and (max-width: 1500px) {
+    .logo {
+        width: 200px;
+    }
 
+}
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1320px) {
     .incubator_wrapper, .accelerator_wrapper, header {
         height: auto;
-        padding: 20px;
+    }
+
+
+    .targets_rockets {
+        margin-top: 100px;
+    }
+
+
+    .targets_rockets .rockets_img {
+        display: none;
     }
 }
 
 @media screen and (max-width: 1150px) {
-    .targets_rockets .rockets {
-        display: none;
-    }
+
 
     .targets_rockets ul.targets li {
         width: 100%;
@@ -207,8 +207,8 @@ header {
     }
 
     .sign_up_form {
-        flex-direction: column;;
-        border-radius: 50px;
+        flex-direction: column;
+        border-radius: 100px;
     }
 
     .sign_up_form .description {
@@ -217,8 +217,12 @@ header {
         margin-bottom: 10px;
     }
 
-    .sign_up_form .sign_up_button {
+    .sign_up_button {
         padding: 30px 35px;
+    }
+
+    .incubator {
+        margin-bottom: 30px;
     }
 
     .incubator .purposes .purpose img {
@@ -226,11 +230,25 @@ header {
         align-self: center;
     }
 
+    .sign_up_button {
+        padding: 10px;
+        font-size: 18px;
+    }
 
 }
 
 @media screen and (max-width: 690px) {
     .wrapper {
         width: 90%;
+    }
+
+
+    .header {
+        padding: 0;
+    }
+
+    .sign_up_form {
+        padding: 20px 35px;
+        text-align: center;
     }
 }
