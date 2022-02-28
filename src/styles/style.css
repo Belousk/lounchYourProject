@@ -175,6 +175,12 @@ header {
     width: 40%;
 }
 
+.avatar {
+    border-radius: 30px;
+    border: 5px solid black;
+
+}
+
 @media screen and (max-width: 1500px) {
     .logo {
         width: 200px;

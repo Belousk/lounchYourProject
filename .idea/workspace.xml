@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6f11062-b762-4d06-95bc-c29e4b9493f3" name="Changes" comment="fo LP(LandingPage) better">
+    <list default="true" id="b6f11062-b762-4d06-95bc-c29e4b9493f3" name="Changes" comment="do LP more responsible">
+      <change afterPath="$PROJECT_DIR$/img/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/next3Background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,8 @@
       <workItem from="1645288738510" duration="5675000" />
       <workItem from="1645432161395" duration="3701000" />
       <workItem from="1645479071587" duration="4722000" />
-      <workItem from="1645519668364" duration="3971000" />
+      <workItem from="1645519668364" duration="4663000" />
+      <workItem from="1646023078921" duration="1033000" />
     </task>
     <task id="LOCAL-00001" summary="welcome and incubator page">
       <created>1645432243894</created>
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645483779645</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="do LP more responsible">
+      <created>1645534888290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645534888290</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +144,7 @@
     <MESSAGE value="fix bugs in welcome page" />
     <MESSAGE value="add some margin to purposes" />
     <MESSAGE value="fo LP(LandingPage) better" />
-    <option name="LAST_COMMIT_MESSAGE" value="fo LP(LandingPage) better" />
+    <MESSAGE value="do LP more responsible" />
+    <option name="LAST_COMMIT_MESSAGE" value="do LP more responsible" />
   </component>
 </project>
